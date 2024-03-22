@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/885f36094b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="music_player">
+        <p class="now_playing">Now Playing</p>
+        <div class="song_phote">
+            <img src="HAS218.webp" alt="Song Image" srcset="" height="200px" width="200px">
+        </div>
+        <div class="song_properties">
+            <p class="song_name">Madhurashtakam</p>
+            <p><b>Singer</b>-Agam Agarwal</p>
+        </div>
+        <div class="player_and_options">
+            <div class="player">
+                <audio src="Madhurashtakam.mp3" id="audioPlayer"></audio>
+                <input type="range" name="" id="slider" min="0" value="0" step="1" max="">
+                <p class="timer"><span class="minutes">00</span><span>:</span><span class="second">00</span></p>
+            </div>
+            <div class="options">
+                <button class="backbtn small_btn"><i class="fa-solid fa-backward-step small"></i></button>
+                <button class="playbtn big_btn"><i class="fa-solid fa-play big target"></i></button>
+                <!-- <i class="fa-solid fa-pause"></i>     -->
+                <button class="forbtn small_btn"><i class="fa-solid fa-forward-step small"></i></button>     
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

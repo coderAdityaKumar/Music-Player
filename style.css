@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.music_player{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background-color: #8492b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.now_playing{
+    margin-top: 50px;
+}
+
+.song_photo{
+    width: 100px;
+    height: 100px;
+}
+
+.song_properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player_and_options{
+    
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.player{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#slider{
+    width: 90%;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.small{
+    font-size: 30px;
+}
+
+.small_btn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.big_btn{
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
